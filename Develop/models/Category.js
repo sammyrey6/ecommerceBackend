@@ -15,7 +15,7 @@ Category.init(
       unsigned: true
     },
     category_name: {
-      type: DataTypes.String,
+      type: DataTypes.STRING,
       allowNull: false
     }
   },
