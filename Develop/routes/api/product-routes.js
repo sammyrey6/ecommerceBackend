@@ -37,6 +37,8 @@ router.get('/:id', (req, res) => {
       },
     ],
   })
+  .then((category) => res.json(category))
+  .catch((err)=> res.status(400).json(err));
 });
 
 // create new product
